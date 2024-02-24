@@ -10,11 +10,11 @@
 </head>
 <body>
 <header class="header">
-    <div class="container_head">
+    <div class="header__container">
         <div class="header__logo">
             <img src="assets/img/ToDo.svg" alt="Лого">
         </div>
-        <div class="user__logo">
+        <div class="header__user-logo">
             <img src="assets/img/user.svg" alt="ЮзерЛого">
         </div>
         <div class="header__username">
@@ -22,13 +22,20 @@
         </div>
     </div>
 </header>
-<main>
-    <div class="main_input" >
-        <div class="inputline">
-            <input type="text">
-        </div>
-        <div class="inputbutton">
-            <input type="button">
+<main class="main">
+    <div class="main__container">
+        <div class="main__wrapper">
+            <div class="main__block">
+                <input class="main__input" type="text" placeholder="Введите название задания">
+            </div>
+            <div class="main__button">
+                <div class="main__button-icon">
+                    <img src="assets/img/addicon.svg" alt="+">
+                </div>
+                <div class="main__button-text">
+                    <img src="assets/img/Добавить%20задание.svg" alt="Добавить задание">
+                </div>
+            </div>
         </div>
     </div>
 </main>
