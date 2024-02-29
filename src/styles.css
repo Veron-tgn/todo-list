@@ -35,6 +35,12 @@ body {
     font-weight: 400;
 }
 
+.body__ToDo{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 li {
     list-style: none;
 }
@@ -85,6 +91,9 @@ h6 {
     padding: 8px;
 }
 
+.main{
+    flex: 1;
+}
 .main__container {
     width: 100%;
     max-width: 1040px;
@@ -227,6 +236,10 @@ h6 {
     align-content: center;
     justify-content: start;
     margin-top: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
 }
 
 .main__card-task-list-checkbox-input{
@@ -237,7 +250,7 @@ h6 {
 
 .main__card-task-list-task-existing{
     position: relative;
-    top: 15px;
+    top: 16px;
     left: 50px;
 }
 
@@ -251,4 +264,19 @@ h6 {
     position: relative;
     top: 18px;
     left: 800px;
+}
+
+.footer__container{
+    display: flex;
+    flex: 1;
+    width: 1920px;
+    height: 70px;
+    background-color: #F0F0F0;
+}
+
+.footer__logo{
+    display: flex;
+    position: static;
+    align-content: inherit;
+    margin: auto;
 }
