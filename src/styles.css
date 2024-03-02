@@ -35,6 +35,12 @@ body {
     font-weight: 400;
 }
 
+.body__ToDo{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 li {
     list-style: none;
 }
@@ -85,6 +91,9 @@ h6 {
     padding: 8px;
 }
 
+.main{
+    flex: 1;
+}
 .main__container {
     width: 100%;
     max-width: 1040px;
@@ -142,4 +151,132 @@ h6 {
 .main__button-text{
     width: 146px;
     height: 24px;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-top: 5px;
+}
+
+.main__tasks-checklist{
+    display: flex;
+    flex-direction: row;
+    width: 509px;
+    height: 28px;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.main__tasks-checklist-active-task{
+    margin-left: 20px;
+}
+
+.main__tasks-checklist-all-task{
+
+}
+
+.main__tasks-checklist-complete-task{
+    margin-left: 20px;
+}
+
+.main__tasks-button{
+    display: flex;
+    box-shadow: 0 0 5px 1px lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    line-height: 20px;
+    padding: 2px 8px 2px 8px;
+    text-align: center;
+    letter-spacing: 0;
+    flex: max-content;
+}
+
+.main__card-task-list{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2px;
+}
+
+.main__card-task-description{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #F0F2F6;
+    justify-content: start;
+    gap: 25px;
+    align-content: center;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.main__card-task-description-task-name{
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.main__card-task-description-checkbox-input{
+    width: 16px;
+    height: 16px;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.main__card-task-list{
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-content: center;
+    justify-content: start;
+    margin-top: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+}
+
+.main__card-task-list-checkbox-input{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.main__card-task-list-task-existing{
+    position: relative;
+    top: 16px;
+    left: 50px;
+}
+
+.main__card-task-list-edit{
+    position: relative;
+    top: 18px;
+    left: 780px
+}
+
+.main__card-task-list-delete{
+    position: relative;
+    top: 18px;
+    left: 800px;
+}
+
+.footer__container{
+    display: flex;
+    flex: 1;
+    width: 1920px;
+    height: 70px;
+    background-color: #F0F0F0;
+}
+
+.footer__logo{
+    display: flex;
+    position: static;
+    align-content: inherit;
+    margin: auto;
 }

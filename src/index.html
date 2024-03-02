@@ -8,7 +8,7 @@
     <title>ToDo-List</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="body__ToDo">
 <header class="header">
     <div class="header__container">
         <div class="header__logo">
@@ -33,11 +33,55 @@
                     <img src="assets/img/addicon.svg" alt="+">
                 </div>
                 <div class="main__button-text">
-                    <img src="assets/img/Добавить%20задание.svg" alt="Добавить задание">
+                    <span>Добавить задание</span>
                 </div>
             </div>
         </div>
+        <div class="main__tasks">
+            <div class="main__tasks-checklist">
+                <div class="main__tasks-checklist-all-task main__tasks-button">
+                    <span>Все задания</span>
+                </div>
+                <div class="main__tasks-checklist-active-task main__tasks-button">
+                    <span>Активные задания</span>
+                </div>
+                <div class="main__tasks-checklist-complete-task main__tasks-button">
+                    <span>Выполненые задания</span>
+                </div>
+            </div>
+        </div>
+         <div class="main__card-task">
+            <div class="main__card-task-description">
+                <div class="main__card-task-description-checkbox-input">
+                    <img src="assets/img/checkbox-input.svg" alt="Кубик">
+                </div>
+                 <div class="main__card-task-description-task-name">
+                    <span>Наименование задачи</span>
+                 </div>
+            </div>
+                 <div class="main__card-task-list">
+                     <div class="main__card-task-list-checkbox-input">
+                         <img src="assets/img/checkbox-input.svg" alt="Кубик">
+                     </div>
+                 <div class="main__card-task-list-task-existing">
+                     <span>Какое-то задание</span>
+                 </div>
+                     <div class="main__card-task-list-edit">
+                        <img src="assets/img/edit.svg" alt="+">
+                     </div>
+                     <div class="main__card-task-list-delete">
+                        <img src="assets/img/delete.svg" alt="-">
+                     </div>
+                 </div>
+         </div>
     </div>
 </main>
+<footer class="footer">
+    <div class="footer__container">
+    <div class="footer__logo">
+        <img src="assets/img/footerTODO.svg" alt="ToDo">
+    </div>
+    </div>
+</footer>
 </body>
 </html>
